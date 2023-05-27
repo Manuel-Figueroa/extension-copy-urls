@@ -1,0 +1,24 @@
+{
+    "name":"My pages",
+    "description":"Obtener los urls de las paginas abiertas",
+    "version":"1.0",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":{
+            "16":"/images/icon/url16.png",
+            "32":"/images/icon/url32.png",
+            "48":"/images/icon/url48.png",
+            "128":"/images/icon/url128.png"
+        }
+    },
+    "icons":{
+        "16":"/images/icon/url16.png",
+        "32":"/images/icon/url32.png",
+        "48":"/images/icon/url48.png",
+        "128":"/images/icon/url128.png"
+    },
+    "permissions": [
+        "tabs"
+      ]
+}
