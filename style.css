@@ -1,4 +1,4 @@
-#cuadro{
+#root-element{
     width: 5cm;
     height: 0.9cm;
     align-items: center;
@@ -47,7 +47,7 @@ body {
     width: 100vw;
     transition: all 0.5s;
   }
-  #modal #cuerpo{
+  #modal #element-container{
     width: 60%;
     height: 40%;
     position: absolute;

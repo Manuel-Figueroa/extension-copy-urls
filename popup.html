@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <article id="cuadro">
+    <article id="root-element">
         <!-- <button id="btn-urls">Obtener urls</button>
         <div id="for_txt"></div> -->
         <button id="btn-urls" >Obtener urls</button>
@@ -17,11 +17,14 @@
         <main>
             <input id="mostrar-modal" type="radio" name="modal"/>
             <label for="mostrar-modal" id="btn-modal">Ver urls</label>
+            <br>
+            <input id="mostrar-modal" type="radio" name="modal"/>
+            <label for="mostrar-modal" id="btn-pages">Por pagina</label>
             <input id="cerrar-modal" type="radio" name="modal"/>
             <label for="cerrar-modal" id="btn-close">X</label>
             <div id="modal">
                 <button id="btn-urls-sl">Obtener solo seleccionados </button>
-                <div id='cuerpo'></div>
+                <div id='element-container'></div>
             </div>
         </main>
     </article>
