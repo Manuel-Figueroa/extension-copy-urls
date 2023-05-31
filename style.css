@@ -3,7 +3,7 @@
     height: 0.9cm;
     align-items: center;
 }
-#btn-urls, #btn-urls-sl{
+#btn-urls, #btn-urls-sl,.btn-app{
     display: table;
     width: 5cm;
     height: 0.8cm;
@@ -15,6 +15,9 @@
     border-style: none;
     margin:9px auto;
     cursor: pointer;
+}
+#btn-urls:hover, #btn-urls-sl:hover,.btn-app:hover{
+  background: #38678f;
 }
 
 
